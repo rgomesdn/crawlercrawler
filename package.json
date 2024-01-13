@@ -1,0 +1,37 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "A crawler made with typescript and node",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgomesdn/crawler.git"
+  },
+  "keywords": [
+    "crawler",
+    "typescript",
+    "node"
+  ],
+  "author": "Rodrigo Gomes do Nascimento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgomesdn/crawler/issues"
+  },
+  "homepage": "https://github.com/rgomesdn/crawler#readme",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "axios": "^1.6.5",
+    "browser-launcher": "^4.0.0"
+  },
+  "dependencies": {
+    "@crawlee/cli": "^3.7.2",
+    "mysql2": "^3.7.0",
+    "puppeteer": "^21.7.0",
+    "sequelize": "^6.35.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
